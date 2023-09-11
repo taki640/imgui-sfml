@@ -1,1 +1,10 @@
 build
+
+# added by taki - visual studio folders and compiled libraries
+bin/
+bin-int/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.sln.dotsettings
