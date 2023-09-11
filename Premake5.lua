@@ -21,7 +21,11 @@ project "ImGuiSFML"
 		"../imgui"
 	}
 
-	defines { "SFML_STATIC" }
+	defines
+	{ 
+		"SFML_STATIC",
+		"IMGUI_SFML_VIEWPORTS_ENABLE"
+	}
 
 	filter "system:windows"
 		systemversion "latest"

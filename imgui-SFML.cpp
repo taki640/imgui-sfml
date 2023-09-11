@@ -180,7 +180,7 @@ struct TriggerInfo {
 };
 
 struct WindowContext {
-    const sf::Window* window;
+    sf::Window* window;
     ImGuiContext* imContext;
 
     sf::Texture fontTexture; // internal font atlas which is used if user doesn't set a custom
